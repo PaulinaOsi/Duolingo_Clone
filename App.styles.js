@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 10,
-        paddingTop: 35,
+        padding: 17,
+        paddingTop: 45,
         },
         
         title: {

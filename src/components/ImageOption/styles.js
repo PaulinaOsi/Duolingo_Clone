@@ -3,21 +3,29 @@ import { StyleSheet } from "react-native";
 
 
 const styles = StyleSheet.create({
+        // optionsContainer:{
+        // backgroundColor: 'red',
+        // },
         optionContainer:{
             //styling border
-            // backgroundColor: 'red',
+            //backgroundColor: 'red',
             borderWidth: 2,
             borderBottomWidth: 4,
             borderColor: 'lightgrey',
             borderRadius: 10,
             //size 
-            width: '48%',
-            height: '48%',
+            width: '47%',
+            height: '47%',
 
             //spacing 
-            padding: 10,
+            padding: 14,
 
             alignItems: "center"
+        },
+
+        selectedContainer: {
+            backgroundColor: "#DDF4FE",
+            borderColor: "#81D5FE",
         },
         
         optionImage:{
@@ -26,8 +34,10 @@ const styles = StyleSheet.create({
             flex: 1,
         },
 
-        optionText:{
-
+        optionText:{},
+        selectedText: {
+            fontWeight: "bold",
+            color: "#40BEF7"
         },
     });
     export default styles;

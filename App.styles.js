@@ -8,24 +8,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 17,
-        paddingTop: 45,
+        padding: 20,
+        paddingTop: 65,
         },
-        
-        title: {
-            fontSize: 20, 
-            fontWeight: "bold",
-            alignSelf: "stretch",
-        },
-
-        optionsContainer: {
-           // backgroundColor: 'red',
-            width: '100%',
-            flex: 1,
-            flexDirection: "row",
-            flexWrap: "wrap",
-            justifyContent: "space-between",
-            alignContent: "space-between",
-        }, 
     });
     export default styles;

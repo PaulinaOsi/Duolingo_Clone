@@ -1,6 +1,6 @@
 import React from "react";
 import { Pressable , Text } from "react-native";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 import styles from "./styles";
 
 const Button = ({text,onPress, disabled }) =>{
@@ -15,10 +15,10 @@ const Button = ({text,onPress, disabled }) =>{
      </Pressable>
     );
 };
-Button.PropTypes = {
-    text: PropTypes.string.isRequired,
-    onPress: PropTypes.func,
-    disabled: PropTypes.bool,  
+Button.propTypes = {
+    text: propTypes.string.isRequired,
+    onPress: propTypes.func,
+    disabled: propTypes.bool,  
 }
 
 Button.defaultProps = {

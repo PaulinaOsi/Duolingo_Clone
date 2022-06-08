@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
-import { exp } from "react-native/Libraries/Animated/Easing";
+//import { exp } from "react-native/Libraries/Animated/Easing";
 
 const Styles = StyleSheet.create({
     container: {
         backgroundColor: '#58CC02',
-        height: 50,
+        height: 40,
         marginVertical: 10,
 
         alignSelf: "stretch",
